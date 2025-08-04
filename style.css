@@ -166,6 +166,7 @@ h1 {
     border: 5px solid black;
     color: white;
     text-align:center;
+    
 }
 
 .my-cv h2 {
@@ -416,4 +417,3 @@ footer{
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
-
