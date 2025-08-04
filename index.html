@@ -38,7 +38,7 @@
 
     <div class="section-image">
       <img src="./asset/Profile.jpg" alt="Profile Image" class="profil-image" />
-      <h2>Dani Setiawan</h2>
+      <h2 id="typing-name" class="nama">Dani Setiawan</h2>
     </div>
   </div>
 
@@ -109,5 +109,22 @@
   <footer style="margin: 0;">
     <p style="text-transform: capitalize; font-style: italic; font-family: serif;">&copy; dani setiawan</p>
   </footer>
+<script>
+  const text = "Dani Setiawan";
+  const typingElement = document.getElementById("typing-name");
+  let index = 0;
+
+  function typeWriter() {
+    if (index < text.length) {
+      typingElement.textContent += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, 150); // kecepatan ngetik
+    }
+  }
+
+  // Kosongkan dulu, lalu mulai efek ngetik
+  typingElement.textContent = "";
+  window.onload = typeWriter;
+</script>
 </body>
 </html>
