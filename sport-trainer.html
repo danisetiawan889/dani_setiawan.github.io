@@ -1,1 +1,176 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Latihan Olahraga Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, black, grey);
+      color: #333;
+    }
+
+    header {
+      background-color: #2c2929;
+      color: white;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    a {
+      background-color: rgb(68, 45, 45);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 7px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .sporty {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+    }
+
+    main, .adventages {
+      background-color: rgb(255, 139, 31);
+      border-radius: 10px;
+      box-shadow: 0 2px 15px rgb(255, 23, 23);
+      padding: 20px;
+    }
+
+    main {
+      animation: animations 1s ease forwards;
+      opacity: 0;
+      animation-delay: 0.1s;
+      max-width: 600px;
+      flex: 1;
+    }
+
+    .adventages {
+      max-width: 300px;
+      animation: animations2 1s ease forwards;
+      opacity: 0;
+      animation-delay: 0.1s;
+      max-width: 600px;
+      flex: 1;
+    }
+
+    h2 {
+      color: black;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #777;
+    }
+
+    @keyframes animations {
+      0% {
+        opacity: 0;
+        transform: translatex(-30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translatex(0);
+      }
+    }
+
+    @keyframes animations2 {
+      0% {
+        opacity: 0;
+        transform: translatex(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translatex(0);
+      }
+    }
+
+    /* ===== Responsive Design ===== */
+    @media (max-width: 768px) {
+      .sporty {
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      main, .adventages {
+        max-width: 100%;
+        margin: 0 auto 15px auto;
+      }
+
+      a {
+        font-size: 14px;
+        padding: 6px 12px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">⬅ kembali</a>
+    <h1>SPORT TRAINING</h1>
+  </header>
+
+  <div class="sporty">
+    <main>
+      <section>
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya sedang fokus membangun kebiasaan hidup sehat melalui latihan olahraga rutin. Di bawah ini adalah daftar latihan yang saya lakukan setiap minggu.</p>
+      </section>
+      
+      <section>
+        <h2>Jadwal Latihan Mingguan</h2>
+        <ul>
+          <li>Senin: Lari pagi 30 menit</li>
+          <li>Selasa: Push-up & Sit-up (3 set x 15)</li>
+          <li>Rabu: Istirahat atau yoga ringan</li>
+          <li>Kamis: Plank & Squat</li>
+          <li>Jumat: Lari interval & stretching</li>
+          <li>Sabtu: Latihan kekuatan (dumbbell atau bodyweight)</li>
+          <li>Minggu: Jalan santai atau bersepeda</li>
+        </ul>
+      </section>
+    </main>
+
+    <div class="adventages">
+      <h2>adventages</h2>
+      <ul>
+        <li>setter voli</li>
+        <li>running sub 18</li>
+        <li>workout calisthenic</li>
+        <li>deadlift 50kg</li>
+        <li>freestyle jump rope</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Latihan Olahraga Saya</p>
+  </footer>
+</body>
+</html>
