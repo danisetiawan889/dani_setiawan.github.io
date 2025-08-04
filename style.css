@@ -243,6 +243,7 @@ h1 {
     .my-skill,
     .my-cv {
         box-sizing: border-box;
+        width: 100%;
         max-width: 100%;
 }
 
