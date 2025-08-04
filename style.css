@@ -355,7 +355,7 @@ h1 {
     width: 100%;
     max-width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     flex-wrap: wrap; /* Agar responsif dan tidak keluar */
@@ -417,6 +417,7 @@ footer{
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
 
 
 
