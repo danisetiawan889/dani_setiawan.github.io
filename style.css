@@ -18,6 +18,7 @@ body {
     background: linear-gradient(to right, grey, black, black, rgb(98, 68, 68), black);
     border-radius: 15px;
     padding-top: 80px; /* tambahkan ini */
+    box-shadow: 0 0 7px rgb(255, 0, 0);
 }
 
 nav {
@@ -166,7 +167,7 @@ h1 {
     border: 5px solid black;
     color: white;
     text-align:center;
-    
+    box-shadow: 0 0 10px rgb(255, 0, 0);
 }
 
 .my-cv h2 {
