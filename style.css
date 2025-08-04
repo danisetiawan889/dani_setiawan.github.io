@@ -132,7 +132,7 @@ h1 {
 
 .about-skill {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 10px 5px;
     gap: 20px;
     flex-wrap: wrap;
@@ -417,5 +417,6 @@ footer{
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
 
 
