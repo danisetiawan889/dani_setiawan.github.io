@@ -370,8 +370,8 @@ h1 {
 }
 
 .gallery-foto img {
-    width: 90px;
-    height: 90px; /* Tambahkan agar semua gambar simetris */
+    width: 80px;
+    height: 80px; /* Tambahkan agar semua gambar simetris */
     object-fit: cover;
     display: block;
     border-radius: 100%;
@@ -420,3 +420,4 @@ footer{
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
