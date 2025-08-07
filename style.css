@@ -356,22 +356,23 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
     flex-wrap: wrap; /* Agar responsif dan tidak keluar */
     overflow: hidden; /* Mencegah konten keluar dari container */
     padding: 10px 20px 20px 20px;
 }
 
 .tree-photo{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
 }
 
 .gallery-foto img {
-    width: 80px;
-    height: 80px; /* Tambahkan agar semua gambar simetris */
+    width: 100px;
+    height: 100px; /* Tambahkan agar semua gambar simetris */
     object-fit: cover;
     display: block;
     border-radius: 100%;
@@ -379,7 +380,7 @@ h1 {
     border-bottom: 3px solid lightblue;
     border-left: 3px solid lightcoral;
     border-right: 3px solid lightcyan;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 12px red;
 }
 
 .gallery-foto .photos-client {
@@ -420,4 +421,3 @@ footer{
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
-
