@@ -30,7 +30,6 @@ nav {
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-
 }
 
 .nav-container {
@@ -376,7 +375,11 @@ h1 {
     object-fit: cover;
     display: block;
     border-radius: 100%;
-    border: 3px solid black;
+    border-top: 3px solid lime;
+    border-bottom: 3px solid lightblue;
+    border-left: 3px solid lightcoral;
+    border-right: 3px solid lightcyan;
+    box-shadow: 0 0 10px red;
 }
 
 .gallery-foto .photos-client {
